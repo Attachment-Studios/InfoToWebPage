@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>InfoToWebPage</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="title">
+			<h1>
+				InfoToWebPage
+			</h1>
+		</div>
+		<div class="about">
+			<h3>About</h3>
+			<p>
+				<strong>InfoToWebPage</strong> is a simple tool where you give some data and
+				it results to a simple web-page html and css. Which you can copy for code and
+				then with slight editing your site is ready to publish.
+			</p>
+		</div>
+		<br>
+		<div class="hiw">
+			<h3>How It Works</h3>
+			<p>In short, this tool is based on pure Javascript. HTML and CSS make it look good enough for one to understand what he needs to do. Other than that it's internal processes are easy to understand. This tool takes input from user in text. Then while comipiling it automatically adds those tags for htlm accordingly with respect to it place, where it is located and then generates CSS.</p>
+		</div>
+		<br>
+		<div class="styles">
+			<h3>Page Styles</h3>
+			<div id="css">
+			<h4>Colors</h4>
+			<div class="colors" id="colors">
+				<p>Text Color</p><input type="text" id="textcolor" placeholder="#000000" value="#000000"><br><br>
+				<p>Background Color</p><input type="text" id="bgcolor" placeholder="#ffffff" value="#ffffff">
+			</div><br>
+			<h4>Fonts</h4>
+			<div class="fonts">
+				<p>Font Family</p><input type="text" id="fontfam" placeholder="Comfortaa" value="Comfortaa"><br><br>
+				<p>Font Family Link</p><input type="text" id="fontfamlink" placeholder="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" value="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"><br><br>
+				<p>Font Size(H1)</p><input type="text" id="fontsizeh1" placeholder="128px" value="128px"><br><br>
+				<p>Font Size(H2)</p><input type="text" id="fontsizeh2" placeholder="96px" value="96px"><br><br>
+				<p>Font Size(H3)</p><input type="text" id="fontsizeh3" placeholder="64px" value="64px"><br><br>
+				<p>Font Size(H4)</p><input type="text" id="fontsizeh4" placeholder="48px" value="48px"><br><br>
+				<p>Font Size(H5)</p><input type="text" id="fontsizeh5" placeholder="32px" value="32px"><br><br>
+				<p>Font Size(H6)</p><input type="text" id="fontsizeh6" placeholder="24px" value="24px"><br><br>
+				<p>Font Size(P)</p><input type="text" id="fontsizep" placeholder="24px" value="24px">
+			</div>
+			<br>
+			<h4>Results</h4>
+			<div class="cssresultdiv">
+				<button onclick="generate_css()">Generate CSS</button>
+				<p id="result_css"></p>
+			</div>
+			</div>
+		</div>
+		<br>
+		<div class="content">
+			<h3>HTML</h3>
+			<div id="html">
+			<h4>Title</h4>
+			<input id="name" type="text">
+			<h4>About</h4>
+			<textarea id="about" rows="20"></textarea>
+			<h4>Get</h4>
+			<textarea id="get" rows="20"></textarea>
+			<h4>Credits</h4>
+			<textarea id="cred" rows="20"></textarea>
+			<h4>Licenses, Copyrights and ReadME's</h4>
+			<textarea id="lcr" rows="20"></textarea>
+			<div class="result_html">
+				<button onclick="generate_html()">Generate</button>
+				<p id="result_html">
+				</p>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>

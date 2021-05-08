@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+:root {
+	--ts1: 8em;
+	--ts2: 6em;
+	--ts3: 5em;
+	--ts4: 4em;
+	--ts5: 3em;
+	--ts6: 2em;
+	--tsp: 1.5em;
+	--cp1: #fff;
+	--cp2: #000;
+}
+
+
+* {
+  background: var(--cp1);
+  color: var(--cp2);
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: var(--ts1);
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: var(--ts2);
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: var(--ts3);
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	font-size: var(--ts4);
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+	font-size: var(--ts5);
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+	font-size: var(--ts6);
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-size: var(--tsp);
+}
+
+strong {
+	margin: 0;
+	padding: 0;
+	font-size: var(--tsp);
+}
+
+i {
+	margin: 0;
+	padding: 0;
+	font-size: var(--tsp);
+}
+
+b {
+	margin: 0;
+	padding: 0;
+	font-size: var(--tsp);
+}
+
+input {
+	border: 0.15em solid var(--cp2);
+	outline: none;
+	padding: 1em;
+	font-size: var(--tsp);
+}
+
+#css {
+	padding: 1em;
+	border: 0.25em solid var(--cp2);
+}
+
+#html {
+	padding: 1em;
+	border: 0.25em solid var(--cp2);
+}
+
+.colors {
+	padding: 1em;
+	border: 0.25em solid var(--cp2);
+}
+
+.fonts {
+	padding: 1em;
+	border: 0.25em solid var(--cp2);
+}
+
+.cssresultdiv {
+	padding: 1em;
+	border: 0.25em solid var(--cp2);
+	word-wrap: break-word;
+}
+
+button {
+	border: 3px solid var(--cp2);
+	padding: 10px;
+	background: var(--cp1);
+	color: var(--cp2);
+	font-size: var(--tsp);
+	cursor: pointer;
+}
+
+button:hover {
+	color: var(--cp1);
+	background: var(--cp2);
+}
+
+textarea {
+	width: 100%;
+	outline: none;
+	border: 3px solid black;
+	padding: 10px;
+}
